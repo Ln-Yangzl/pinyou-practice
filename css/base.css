@@ -65,3 +65,8 @@ body {
 .clearfix {
     *zoom: 1
 }
+
+input,
+button  {
+    outline: none;
+}
