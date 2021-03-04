@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?5n6w6u');
+    src: url('../fonts/icomoon.eot?5n6w6u#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?5n6w6u') format('truetype'),
+        url('../fonts/icomoon.woff?5n6w6u') format('woff'),
+        url('../fonts/icomoon.svg?5n6w6u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
 .w {
     width: 1200px;
     margin: 0 auto;
@@ -77,7 +88,7 @@
     color: #b1191a;
     vertical-align: middle;
 }
-.trolley .next {
+.next {
     font-family: 'icomoon';
     vertical-align: middle;
 }
@@ -102,6 +113,7 @@
 }
 .bottom_nav .w>a {
     float: left;
+    width: 210px;
     padding: 0 55px;
     background-color: #b1191a;
     color: #fff;
@@ -118,4 +130,12 @@
 }
 .bottom_nav ul li:last-child {
     font-size: 14px;
+}
+.service_mod {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+.service_mod ul li {
+    float: left;
+    height: 100%;
 }
