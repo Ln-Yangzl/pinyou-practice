@@ -207,3 +207,61 @@
 .rec_bd .info .t3 {
     background-color: #0085fb;
 }
+.alg_rec {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.alg_hd h2 {
+    float: left;
+    font-weight: 400;
+}
+.alg_hd h3 {
+    float: right;
+    margin-right: 35px;
+    font-weight: 400;
+}
+.alg_hd h3::after {
+    font-family: 'icomoon';
+    content: '\e922';
+    margin-left: 10px;
+}
+.alg_rec .band {
+    height: 235px;
+    width: 100%;
+    border: 1px solid #ededed;
+}
+.band .box {
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+.box .pic {
+    height: 140px;
+    width: 160px;
+    margin: 0 auto;
+}
+.pic img {
+    height: 100%;
+    width: 100%;
+}
+.box .info {
+    margin-left: 35px;
+    border-right: 1px solid #ededed;
+}
+.band .box:nth-child(6n) {
+    width: 198px;
+}
+.band .box:nth-child(6n) .info {
+    border: none;
+}
+.box .price::before {
+    font-family: 'icomoon';
+    content: '\e923';
+    font-size: 12px;
+    color: #df3033;
+}
+.info .price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #df3033;
+}
