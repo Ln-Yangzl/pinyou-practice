@@ -32,8 +32,59 @@
     color: #c81623;
 }
 .main .focus {
+    position: relative;
     float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
     margin: 10px 0 0 10px;
+}
+.focus ul {
+    position: absolute;
+    width: 600%;
+    top: 0;
+    left: 0;
+}
+.focus .arrow-l,
+.focus .arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    z-index: 2;
+}
+.focus .arrow-l {
+    left: 0;
+}
+.focus .arrow-r {
+    right: 0;
+}
+.focus ul li{
+    float: left;
+}
+.focus .circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circle .current {
+    background-color: #fff;
 }
 .right_band .news {
     margin-top: 10px;
@@ -264,4 +315,25 @@
     font-size: 18px;
     font-weight: 700;
     color: #df3033;
+}
+aside {
+    position: sticky;
+    top: 350px;
+    margin-left: 283px;
+}
+aside ul li {
+    width: 65px;
+    height: 32px;
+    border-top: 1px solid #ededed;
+    line-height: 32px;
+    text-align: center;
+}
+aside ul li:last-child {
+    border-bottom: 1px solid #ededed;
+}
+aside ul li:hover {
+    background-color: #c81623;
+}
+aside ul li:hover a {
+    color: #fff;
 }
